@@ -66,12 +66,12 @@ public class Main4Activity extends Activity {
 		    }
 		    CheckWahrheit[s]= true;
 		Tv4.setText(Warheit[s]);
-
+000
                 button10.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         Tv4.setText(Pflicht[P.nextInt(Pflicht.length)]);
-                    }
+                 000   }
 
                 });
 
