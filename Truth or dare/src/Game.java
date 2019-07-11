@@ -4,6 +4,16 @@ public class Game {
 		String truth [][] = {};
 		String dare [][] = {};
 		
+		Buttonchlick.truth
+			random s;
+			random l;
+			while (chechtruth[s][l] == true){
+				random s;
+				random l;
+			}
+		checktruth[s][l] = true;
+		sytem.out.println("" + [truth[s][l]);
+		
 	}
 
 }
