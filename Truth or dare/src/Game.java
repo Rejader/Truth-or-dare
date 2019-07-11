@@ -59,8 +59,13 @@ public class Main4Activity extends Activity {
         button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Tv4.setText(Warheit[W.nextInt(Warheit.length)]);
-
+               // Tv4.setText(Warheit[W.nextInt(Warheit.length)]);
+		    int s = W.nextInt(Wahrheit.length);
+		    while (CheckWahrheit[s] == true){
+			s = W.nextInt(Wahrheit.length);  
+		    }
+		    CheckWahrheit[s]= true;
+		Tv4.setText(Warheit[s];
 
                 button10.setOnClickListener(new View.OnClickListener() {
                     @Override
