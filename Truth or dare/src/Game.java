@@ -1,18 +1,17 @@
 
 public class Game {
 	public static void main(String[] s) {
-		String truth [][] = {};
+		String truth [] = {};
+		boolean checktruth [] = new boolean (90);
 		String dare [][] = {};
 		
 		Buttonchlick.truth
-			random s;
-			random l;
-			while (chechtruth[s][l] == true){
+			s = (int) (Math.random() *90);
+			while (chechtruth[s] == true){
 				random s;
-				random l;
 			}
-		checktruth[s][l] = true;
-		sytem.out.println("" + [truth[s][l]);
+		checktruth[s] = true;
+		sytem.out.println("" + [truth[s]);
 		
 	}
 
