@@ -86,5 +86,8 @@ public class Main4Activity extends Activity {
 
 }
 
+package com.theq.einmalrichtig;
 
+class Wahrheit {
+    public static int length;
 
