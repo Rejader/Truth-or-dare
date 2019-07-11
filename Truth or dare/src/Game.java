@@ -65,7 +65,7 @@ public class Main4Activity extends Activity {
 			s = W.nextInt(Wahrheit.length);  
 		    }
 		    CheckWahrheit[s]= true;
-		Tv4.setText(Warheit[s];
+		Tv4.setText(Warheit[s]);
 
                 button10.setOnClickListener(new View.OnClickListener() {
                     @Override
